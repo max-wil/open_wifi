@@ -1,4 +1,4 @@
-# open_wifi/n
+# open_wifi
 
 This should work as a base for a 
 - one page

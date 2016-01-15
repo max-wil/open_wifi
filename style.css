@@ -8,7 +8,7 @@ h1 {
     margin: 0.67em auto;
     text-align: center;
 }
-.container p {
+.container > p {
     margin-left: 10%;
 }
 .input-group {

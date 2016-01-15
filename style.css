@@ -13,7 +13,7 @@ h1 {
 }
 .input-default {
     width: 95.7%;
-    border: 0.1em solid #ccc;
+    border: 1px solid #ccc;
     /*border-radius: 4px;*/
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     padding: 2%;
@@ -31,10 +31,10 @@ h1 {
     width: 100%;
     /*border-radius: 4px;*/
     cursor: pointer;
-    border: 0.1em solid #4cae4c;
+    border: 1px solid #4cae4c;
     background-color: #5cb85c;
     color: #fff;
-    padding: 0.8em;
+    /*padding: 0.8em;*/
 }
 .btn-default:hover {
     background-color: #449d44;

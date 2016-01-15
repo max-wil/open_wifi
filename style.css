@@ -1,7 +1,58 @@
 .container {
     width: 100%;
     max-width:968px;
+    margin: 0 auto;
 }
+.text-div
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.input-group
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.inpt-default
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 10px 16px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.inpt-default:focus
+{
+    border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.inpt-default.danger
+{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.btn-default
+{
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #4cae4c;
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 16px;
+}
+.btn-default:hover
+{
+    background-color: #449d44;
+    border-color: #398439;
+}
+.btn-default:active
+{
+    background-color: #468C46;
+    border-color: #398439;
+}
+
 
 /* check how this works
 input[type="checkbox"]:required:invalid + label { color: red; }

@@ -3,9 +3,15 @@
     max-width:968px;
     margin: 0 auto;
 }
-.text-div {
+h1 {
+    width: 80%;
+    margin: 0.67em auto;
+    text-align: center;
+}
+p {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 .input-group {
     width: 80%;
@@ -24,7 +30,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
     outline: 0 none;
 }
-input.danger {
+.input-group .danger {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 0, 0, 0.6);
 }
 .btn-default {

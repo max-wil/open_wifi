@@ -12,11 +12,11 @@ h1 {
     margin: 0 auto;
 }
 .input-default {
-    width: 100%;
-    /*border: 1px solid #ccc;*/
+    width: 95.7%;
+    border: 0.1em solid #ccc;
     /*border-radius: 4px;*/
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    /*padding: 10px 16px;*/
+    padding: 2%;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
 .input-default:focus {
@@ -29,12 +29,12 @@ h1 {
 }
 .btn-default {
     width: 100%;
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     cursor: pointer;
-    /*border: 1px solid #4cae4c;*/
+    border: 0.1em solid #4cae4c;
     background-color: #5cb85c;
     color: #fff;
-    /*padding: 10px 16px;*/
+    padding: 0.8em;
 }
 .btn-default:hover {
     background-color: #449d44;

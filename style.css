@@ -4,12 +4,8 @@
     margin: 0 auto;
 }
 h1 {
-    width: 80%;
     margin: 0.67em auto;
     text-align: center;
-}
-.container > p {
-    margin-left: 10%;
 }
 .input-group {
     width: 80%;

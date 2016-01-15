@@ -1,3 +1,9 @@
 .container {
-
+    width: 100%;
+    max-width:968px;
 }
+
+/* check how this works
+input[type="checkbox"]:required:invalid + label { color: red; }
+input[type="checkbox"]:required:valid + label { color: green; }
+*/

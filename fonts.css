@@ -1,0 +1,5 @@
+/*As seen on https://varvy.com/mobile/legible-font-size.html*/
+html{font-size:100%;}
+body {font-size: 16px;}
+h1 {font-size: 250%;}
+p{font-size:120%;line-height:1.2;}

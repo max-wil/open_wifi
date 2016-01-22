@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-    var textBox = jQuery(".text-box");
+    var textBox = jQuery.add(div).addClass(".text-box");
     var termsText = jQuery(".terms-text");
     var helpText = jQuery(".help-text");
     

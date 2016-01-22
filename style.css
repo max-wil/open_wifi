@@ -1,6 +1,6 @@
 /* this bypasses the input getting bigger than the form 
 https://css-tricks.com/box-sizing/. include in normalize.css */
-* {
+body * {
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -10,7 +10,6 @@ html, body {
     background-color: WhiteSmoke;
     font-family: 'Roboto', sans-serif;
 }
-
 .container {
     width: 100%;
     height: 100%;
@@ -68,16 +67,16 @@ p {
     background-color: #468C46;
     border-color: #398439;
 }
-.clear {
-    display: block;
-    clear: both;
-}
 .input-group p {
     float: left;
 }
 .input-group h3 {
     float: right;
     color: #3f3f3f;
+}
+.terms {
+    text-decoration: underline;
+    cursor: pointer;
 }
 /* check how this works
 input[type="checkbox"]:required:invalid + label { color: red; }

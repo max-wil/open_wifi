@@ -82,6 +82,12 @@ input[type="checkbox"]:required:invalid {
     text-decoration: underline;
     cursor: pointer;
 }
+.text-box {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
 
 @media screen and (min-width: 968px) {
     .input-default {

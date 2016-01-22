@@ -6,11 +6,11 @@ jQuery(document).ready(function() {
    jQuery(".js_terms").click(function() {
        jQuery(".container").append("<div class='text-box'>");
        jQuery(".text-box").append("<div class='terms-text'>");
-       jQuery("terms-text").html(termsText);
+       jQuery("terms-text").text(termsText);
    });
    jQuery(".js_help").click(function() {
        jQuery(".container").append("<div class='text-box'>");
        jQuery(".text-box").append("<div class='help-text'>");
-       jQuery("help-text").html(helpText);
+       jQuery("help-text").text(helpText);
    });
 });

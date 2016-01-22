@@ -1,14 +1,16 @@
 jQuery(document).ready(function() {
     var textBox = jQuery(".text-box");
-    var termsText = jQuery("div.terms-text");
-    var helpText = jQuery(".help-text");
+    var termsText = "Some terms text";
+    var helpText = "Some help text";
     
    jQuery(".js_terms").click(function() {
        jQuery(".container").append("<div class='text-box'>");
-       jQuery(".text-box").append(termsText);
+       jQuery(".text-box").append("<div class='terms-text'>");
+       jQuery("terms-text").html(termsText);
    });
    jQuery(".js_help").click(function() {
-       jQuery(".container").append(textBox);
-       jQuery(".text-box").append();
+       jQuery(".container").append("<div class='text-box'>");
+       jQuery(".text-box").append("<div class='help-text'>");
+       jQuery("terms-text").html(helpText);
    });
 });

@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
     var textBox = jQuery(".text-box");
-    var termsText = jQuery(".terms-text");
+    var termsText = jQuery("div.terms-text");
     var helpText = jQuery(".help-text");
     
    jQuery(".js_terms").click(function() {

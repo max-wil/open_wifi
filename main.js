@@ -12,4 +12,8 @@ jQuery(document).ready(function() {
        jQuery(".text-box").append("<div class='help-text'>");
        jQuery(".help-text").text(helpText);
    });
+   
+   jQuery(".text-box").click(function() {
+       jQuery(this).remove();
+   });
 });

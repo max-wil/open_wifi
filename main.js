@@ -11,6 +11,6 @@ jQuery(document).ready(function() {
    jQuery(".js_help").click(function() {
        jQuery(".container").append("<div class='text-box'>");
        jQuery(".text-box").append("<div class='help-text'>");
-       jQuery("terms-text").html(helpText);
+       jQuery("help-text").html(helpText);
    });
 });

@@ -75,14 +75,11 @@ p {
     color: #3f3f3f;
     cursor: pointer;
 }
+input[type="checkbox"]:required:invalid { color: red; }
 .terms {
     text-decoration: underline;
     cursor: pointer;
 }
-/* check how this works
-input[type="checkbox"]:required:invalid + label { color: red; }
-input[type="checkbox"]:required:valid + label { color: green; }
-*/
 
 @media screen and (min-width: 968px) {
     .input-default {

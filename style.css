@@ -75,7 +75,9 @@ p {
     color: #3f3f3f;
     cursor: pointer;
 }
-input[type="checkbox"]:required:invalid { color: red; }
+input[type="checkbox"]:required:invalid { 
+    color: red;
+}
 .terms {
     text-decoration: underline;
     cursor: pointer;
